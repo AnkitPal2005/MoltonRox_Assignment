@@ -3,7 +3,7 @@ const cors=require('cors');
 
 const app=express();
 app.use(cors({
-  origin: ['https://pioneer-events-frontend-d4f7mhgab-ankitpal2005s-projects.vercel.app','http://localhost:5173'],
+  origin: '*',
   credentials: true
 }));
 app.use(express.json());
