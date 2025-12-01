@@ -2,7 +2,10 @@ const express=require('express');
 const cors=require('cors');
 
 const app=express();
-app.use(cors());
+app.use(cors({
+  origin: ['https://pioneer-events-frontend-d4f7mhgab-ankitpal2005s-projects.vercel.app','http://localhost:5173'],
+  credentials: true
+}));
 app.use(express.json());
 
 const products=[
