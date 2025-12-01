@@ -13,7 +13,7 @@ export default function ProductPage() {
   const [selectedProduct,setSelectedProduct]=useState(null);
     
   useEffect(()=>{
-    const API_URL='https://pioneer-events-backend-kz6x8w29w-ankitpal2005s-projects.vercel.app';
+    const API_URL='https://pioneer-events-backend-m1dk8zh77-ankitpal2005s-projects.vercel.app';
     fetch(`${API_URL}/api/products`)
       .then(res=>res.json())
       .then(data=>{
