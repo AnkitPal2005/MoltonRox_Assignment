@@ -1,0 +1,19 @@
+.sticky-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    z-index: 2000;
+}
+.sticky-bar button{
+    background: #ff7f00;
+    border: none;
+    padding: 12px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
