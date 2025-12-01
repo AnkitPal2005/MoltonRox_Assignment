@@ -13,7 +13,7 @@ export default function ProductPage() {
   const [selectedProduct,setSelectedProduct]=useState(null);
     
   useEffect(()=>{
-    const API_URL=import.meta.env.VITE_API_URL||'http://localhost:5000';
+    const API_URL='https://pioneer-events-backend-r4z45i37t-ankitpal2005s-projects.vercel.app';
     fetch(`${API_URL}/api/products`)
       .then(res=>res.json())
       .then(data=>{
